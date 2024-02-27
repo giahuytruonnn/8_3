@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Hà Lê</title>
+    <!-- <link rel="stylesheet" href="../style.css" /> -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        height: 100vh;
+        position: relative;
+        align-items: center;
+        background-color: #d29f9f;
+      }
+
+      .set {
+        position: relative;
+        text-align: center;
+        width: 90%;
+        height: 100vh;
+      }
+
+      .set span {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(../forHL/img/snapedit_1709047808922_preview_rev_1.png);
+        margin: -280px 40px 54px -34px;
+        animation: falling 10s infinite linear;
+        z-index: 1;
+      }
+
+      .set span:nth-child(5n + 5) {
+        animation-delay: 1.3s;
+      }
+
+      .set span:nth-child(3n + 2) {
+        animation-delay: 1.5s;
+      }
+
+      .set span:nth-child(2n + 5) {
+        animation-delay: 1.7s;
+      }
+
+      .set span:nth-child(3n + 10) {
+        animation-delay: 2.7s;
+      }
+
+      .set span:nth-child(7n + 2) {
+        animation-delay: 3.5s;
+      }
+
+      .set span:nth-child(4n + 5) {
+        animation-delay: 5.5s;
+      }
+
+      .set span:nth-child(3n + 7) {
+        animation-delay: 8s;
+      }
+
+      @keyframes falling {
+        0% {
+          transform: translate(0, 0px) rotateZ(0deg);
+          opacity: 1;
+        }
+        75% {
+          transform: translate(100px, 600px) rotateZ(270deg);
+          opacity: 1;
+        }
+
+        100% {
+          transform: translate(150px, 800px) rotateZ(360deg);
+          opacity: 0;
+        }
+      }
+
+      .container .letter {
+        background-color: rgb(235, 193, 193);
+        width: 700px;
+        height: 400px;
+        border: 1px solid #ccc;
+        position: absolute;
+        margin-top: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 2;
+        border-radius: 20px;
+      }
+
+      .content {
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="set">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span> <span></span
+        ><span></span><span></span><span></span> <span></span><span></span
+        ><span></span><span></span><span></span> <span></span><span></span
+        ><span></span><span></span> <span></span><span></span><span></span
+        ><span></span><span></span> <span></span><span></span><span></span
+        ><span></span> <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span> <span></span
+        ><span></span><span></span><span></span>
+      </div>
+
+      <div class="letter" id="letter">
+        <div class="content">
+          <h2>Lời chúc</h2>
+          <p>
+            Chúc mừng sinh nhật! Hy vọng bạn có một ngày đặc biệt và niềm vui
+            bất tận!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
