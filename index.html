@@ -82,7 +82,9 @@
 
 .card {
   width: 38vw; /* Thay đổi từ px sang vw */
-  height: 45vh; /* Thay đổi từ px sang vh */
+  height: 45vh;
+  max-height:  45vh;
+  max-width: 38vw; /* Thay đổi từ px sang vh */
   position: absolute;
   margin-left: 20%;
   margin-top: 10%;
@@ -147,6 +149,8 @@
 }
 
 .front{
+  max-width: 38vw;
+  max-height: 45vh;
   background-image: url(img/bg2.jpg);
   /* background-color: #fc8989; */
 }

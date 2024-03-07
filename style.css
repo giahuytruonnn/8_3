@@ -141,6 +141,10 @@
 }
 
 .front{
+  width: 38vw;
+  max-width: 38vw; /* Thay đổi từ px sang vw */
+  height: 45vh;
+  max-height: 45vh;
   background-image: url(../img/bg2.jpg);
   /* background-color: #fc8989; */
 }
