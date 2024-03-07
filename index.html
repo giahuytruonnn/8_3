@@ -149,9 +149,11 @@
 }
 
 .front{
-  max-width: 38vw;
-  max-height: 45vh;
+  width: 100%;
+  height: 100%;
   background-image: url(img/bg2.jpg);
+  background-size: cover; 
+  background-position: center; 
   /* background-color: #fc8989; */
 }
 
@@ -206,6 +208,16 @@ h6{
   text-align: center;
   margin-top: 0.5vw;
 }
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
     </style>
     
   </head>
@@ -225,6 +237,7 @@ h6{
       <div class="card">
         <div class="outside">
           <div class="front">
+            <img src="img/bg2.jpg" alt="">
             <p>Happy Women's Day</p>
             <h6>Lia chuột vào đầy nè!</h6>
             <div class="rose">
