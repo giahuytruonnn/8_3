@@ -73,8 +73,10 @@
 }
 
 .card {
-  width: 38vw; /* Thay đổi từ px sang vw */
-  height: 45vh; /* Thay đổi từ px sang vh */
+  width: 38vw;
+  max-width: 38vw; /* Thay đổi từ px sang vw */
+  height: 45vh;
+  max-height: 45vh; /* Thay đổi từ px sang vh */
   position: absolute;
   margin-left: 20%;
   margin-top: 10%;
